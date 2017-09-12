@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- armor vest, recipe -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/ThingDefs/ThingDef[defName="Apparel_VestPlate"]/costList/Steel</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/ThingDefs/ThingDef[defName="Apparel_VestPlate"]</xpath>
+		<value>
+			<costStuffCount>120</costStuffCount>
+			<stuffCategories>
+				<li>Metallic</li>
+			</stuffCategories>
+		</value>
+	</Operation>
+
+	<!-- armor vest, protection -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/ThingDefs/ThingDef[defName="Apparel_VestPlate"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<!-- armor vest, color -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>/ThingDefs/ThingDef[defName="Apparel_VestPlate"]/colorGenerator</xpath>
+	</Operation>
+
+</Patch>
