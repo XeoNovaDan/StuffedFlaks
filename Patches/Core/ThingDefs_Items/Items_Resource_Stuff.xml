@@ -41,16 +41,6 @@
 		</value>
 	</Operation>
 
-	<!-- wood (not an armor stuff, but here for the sake of it) -->
-
-	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ThingDef[defName="WoodLog"]/stuffProps/statFactors</xpath>
-		<value>
-			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
-			<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
-		</value>
-	</Operation>
-
 	<!-- uranium -->
 
 	<Operation Class="PatchOperationAdd">
