@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Patch>
 
+	<!-- wood 
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="WoodLog"]/stuffProps/statFactors</xpath>
+		<value>
+			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+		</value>
+	</Operation>-->
+
 	<!-- silver -->
 
 	<Operation Class="PatchOperationAdd">
@@ -36,8 +46,8 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/ThingDef[defName="Plasteel"]/stuffProps/statFactors</xpath>
 		<value>
-			<ArmorRating_Blunt>1.3</ArmorRating_Blunt>
-			<ArmorRating_Sharp>1.3</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.2</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.2</ArmorRating_Sharp>
 		</value>
 	</Operation>
 
