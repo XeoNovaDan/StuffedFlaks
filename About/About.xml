@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>[XND] Armor Stuff Expanded</name>
+	<name>[XND] Stuffed Flaks</name>
 	<author>XeoNovaDan</author>
 	<url>https://ludeon.com/forums/index.php?topic=29503.0</url>
-	<targetVersion>0.18.0</targetVersion>
-	<description>Current Version: v1.1 (14th January 2018)\n\nMakes all vanilla metals have varying protection modifiers, and armor vests can be made out of any metal; not just steel.</description>
+	<targetVersion>1.0.0</targetVersion>
+	<description>Current Version: v1.2 (18th June 2018)\n\nMakes flak vests and flak pants producible from any 'Metallic' resource; not just steel.</description>
 </ModMetaData>
