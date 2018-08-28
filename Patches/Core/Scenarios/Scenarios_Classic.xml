@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>*/ScenarioDef[defName="Crashlanded"]/scenario/parts/li[thingDef="Apparel_FlakPants" or thingDef="Apparel_FlakVest"]</xpath>
+        <value>
+            <stuff>Steel</stuff>
+        </value>
+    </Operation>
+
+</Patch>

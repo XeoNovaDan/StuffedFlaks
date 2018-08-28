@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModSyncNinjaData>
+  <ID>1cae1353-13f1-47db-8e93-4f7ffd83e4ac</ID>
+  <ModName>[XND] Stuffed Flaks</ModName>
+  <Version>1.2.1</Version>
+  <SaveBreaking>False</SaveBreaking>
+  <Host name="Github">
+    <Owner>XeoNovaDan</Owner>
+    <Project>StuffedFlaks</Project>
+    <AboutDir>About</AboutDir>
+    <DownloadFrom>ModSyncMainPage</DownloadFrom>
+    <Branch>master</Branch>
+  </Host>
+</ModSyncNinjaData>
